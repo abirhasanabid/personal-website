@@ -178,7 +178,7 @@ nav li a {
 .inquiry-img {
   width: 100%;
 }
-.inquiry-h1 {
+/* .inquiry-h1 {
   position: absolute;
   top: 43%;
   left: 30px;
@@ -189,6 +189,30 @@ nav li a {
   position: absolute;
   top: 43%;
   right: 30px;
+} */
+.inquiry-text{
+  /* position: absolute; */
+  justify-content: space-between;
+  align-items: center;
+}
+/*  footer styles*/
+footer{
+  padding: 93px 0;
+}
+.footer-title{
+text-align: center;
+}
+.footer-description{
+text-align: center;
+padding-top: 16px;
+padding-bottom: 23px;
+}
+.footer-icons{
+  justify-content: center;
+  gap: 1.5rem;
+}
+.footer-icon{
+  max-width: 40px;
 }
 /* responsive for mobie */
 @media screen and (max-width: 576px) {
@@ -243,5 +267,8 @@ nav li a {
     position: absolute;
     top: 35%;
     right: 10px;
+  }
+  footer{
+    padding: 30px 0;
   }
 }
