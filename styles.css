@@ -120,12 +120,12 @@ nav li a {
   width: 100%;
 }
 /* Projects styles */
-.project-container{
-  background-color:  #F7F8F8;
+.project-container {
+  background-color: #f7f8f8;
   margin-top: 50px;
   /* filter: drop-shadow(0 6mm -2mm #7d8080); */
 }
-.project-title{
+.project-title {
   padding-top: 125px;
   padding-bottom: 90px;
   text-align: center;
@@ -133,38 +133,63 @@ nav li a {
   /* letter-spacing: 1px; */
   font-size: 3rem;
 }
-#latest{
-  color: #F46060; 
+#latest {
+  color: #f46060;
 }
-.card-container{
-max-width:  80% ;
-margin: 0 auto;
-justify-content: center;
-gap: 2.87rem;
-padding-bottom: 187px;
-/* filter: drop-shadow(0 0 0 #000000); */
+.card-container {
+  max-width: 80%;
+  margin: 0 auto;
+  justify-content: center;
+  gap: 2.87rem;
+  padding-bottom: 187px;
+  /* filter: drop-shadow(0 0 0 #000000); */
 }
-.card{
-border-radius: 20px;
-padding: 15px;
-box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.07);
-max-width: 370px;
+.card {
+  border-radius: 20px;
+  padding: 15px;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.07);
+  max-width: 370px;
 }
-.card-img{
+.card-img {
   width: 100%;
 }
-.card-title{
+.card-title {
   padding-top: 28px;
   padding-bottom: 12px;
   font-weight: 700;
   font-size: 1.5rem;
   color: #363958;
 }
-.card-description{
-  color: #6C6C6C;
+.card-description {
+  color: #6c6c6c;
   line-height: 28px;
 }
 
+/* inquiry styles */
+.inquiry-container {
+  margin-top: 100px;
+  padding-top: 100px;
+  max-width: 60%;
+  margin: 0 auto;
+}
+.inquiry-centent {
+  position: relative;
+}
+.inquiry-img {
+  width: 100%;
+}
+.inquiry-h1 {
+  position: absolute;
+  top: 43%;
+  left: 30px;
+  font-size: 3rem;
+  color: rgba(255, 255, 255, 0.671);
+}
+.inquiry-btn {
+  position: absolute;
+  top: 43%;
+  right: 30px;
+}
 /* responsive for mobie */
 @media screen and (max-width: 576px) {
   nav ul {
@@ -186,16 +211,37 @@ max-width: 370px;
     width: 100%;
     margin: 30px 0;
   }
-  .project-title{
+  .project-title {
     padding-top: 70px;
     padding-bottom: 50px;
     font-size: 2.5rem;
   }
-  .card-container{
+  .card-container {
     justify-content: center;
+    align-items: center;
     gap: 2rem;
     padding-bottom: 50px;
     flex-direction: column;
     letter-spacing: 1px;
-    }
+  }
+  .inquiry-container {
+    margin: 20px;
+    padding-top: 50px;
+    max-width: 100%;
+  }
+  .btn-primary {
+    padding: 8px 10px;
+    font-weight: 400;
+  }
+  .inquiry-h1 {
+    position: absolute;
+    top: 34%;
+    left: 10px;
+    font-size: 1.5rem;
+  }
+  .inquiry-btn {
+    position: absolute;
+    top: 35%;
+    right: 10px;
+  }
 }
