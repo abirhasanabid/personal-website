@@ -172,32 +172,24 @@ nav li a {
   max-width: 60%;
   margin: 0 auto;
 }
-.inquiry-centent {
-  position: relative;
-}
 .inquiry-img {
   width: 100%;
 }
-/* .inquiry-h1 {
-  position: absolute;
-  top: 43%;
-  left: 30px;
-  font-size: 3rem;
-  color: rgba(255, 255, 255, 0.671);
-}
-.inquiry-btn {
-  position: absolute;
-  top: 43%;
-  right: 30px;
-} */
 .inquiry-text{
-  /* position: absolute; */
-  justify-content: space-between;
+  margin-top: -15%;
+  justify-content: space-around;
   align-items: center;
+}
+.inquiry-h1{
+  color: rgba(255, 255, 255, 0.753);
+  font-size: 2.5rem;
 }
 /*  footer styles*/
 footer{
-  padding: 93px 0;
+  padding: 100px 0;
+}
+.footer-content{
+  margin-top: 93px;
 }
 .footer-title{
 text-align: center;
@@ -254,21 +246,22 @@ padding-bottom: 23px;
     max-width: 100%;
   }
   .btn-primary {
-    padding: 8px 10px;
+    padding: 5px 10px;
     font-weight: 400;
+    align-items: center;
+
+  }
+  .inquiry-text{
+    margin-top: -17%;
+    justify-content: space-around;
   }
   .inquiry-h1 {
-    position: absolute;
-    top: 34%;
-    left: 10px;
     font-size: 1.5rem;
-  }
-  .inquiry-btn {
-    position: absolute;
-    top: 35%;
-    right: 10px;
   }
   footer{
     padding: 30px 0;
   }
+  .footer-content {
+    margin-top: 10px;
+}
 }
